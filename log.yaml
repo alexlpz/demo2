@@ -1,4 +1,4 @@
-version: 10
+version: 11
 disable_existing_loggers: true
 formatters:
   simple:
@@ -14,7 +14,7 @@ handlers:
     level: DEBUG
     formatter: simple
     filename: logs/Hibrys.log
-    maxBytes: 10485760 # 100MB
+    maxBytes: 10485760 # 200MB
     backupCount: 2
     encoding: utf8
 loggers:
