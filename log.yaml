@@ -1,5 +1,5 @@
 version: 11
-disable_existing_loggers: true
+disable_existing_loggers: false
 formatters:
   simple:
     format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
@@ -15,7 +15,7 @@ handlers:
     formatter: simple
     filename: logs/Hibrys.log
     maxBytes: 10485760 # 200MB
-    backupCount: 2
+    backupCount: 5
     encoding: utf8
 loggers:
   simpleExample:
