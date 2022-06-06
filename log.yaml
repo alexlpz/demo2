@@ -1,4 +1,4 @@
-version: 18
+version: 19
 disable_existing_loggers: false
 formatters:
   simple:
@@ -23,7 +23,7 @@ loggers:
     handlers: [console]
     propagate: no
   werkzeug:
-    level: ERROR
+    level: ERRORES
     handlers: [console]
     propagate: no
 root:
