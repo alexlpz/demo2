@@ -1,4 +1,4 @@
-version: 20
+version: 21
 disable_existing_loggers: true
 formatters:
   simple:
